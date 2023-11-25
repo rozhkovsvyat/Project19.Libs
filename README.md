@@ -10,6 +10,7 @@
 
 > [!NOTE]
 > :eye_speech_bubble: [Использует JwtBearer7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
+> :eye_speech_bubble: [Использует MongoDbCore3.1.12](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore)
 
 ---
 
