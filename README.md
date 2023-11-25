@@ -1,7 +1,7 @@
 # Project 19 : Libraries
 #nuget #net7.0.10
 
-see https://www.nuget.org/profiles/rozhkovsvyat
+> https://www.nuget.org/profiles/rozhkovsvyat
 
 Библиотеки проекта Phonebook
 
