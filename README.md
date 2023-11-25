@@ -13,7 +13,7 @@
 
 * Project19.Models.Contacts.Db - реализация поставщика контактов из базы данных (EFCore)
 
-* Project19.Models.Contacts.Factory - интерфейс фабрики контактов, простая реализация (3 записи), случайная реализация (3/5/8 записей)
+* Project19.Models.Contacts.Factory - интерфейс фабрики контактов, простая и случайная реализации
 
 * Project19.Models.Identity - 
 
