@@ -14,10 +14,10 @@
 
 * **Contacts** -- модель контакта, интерфейс поставщика контактов
 * **Contacts.Test** -- реализация тестового поставщика (лист с задержкой)
-* **Contacts.Db** -- реализация поставщика из бд [EntityFrameworkCore7.0.13](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
+* **Contacts.Db** -- реализация поставщика из базы данных / [EntityFrameworkCore7.0.13](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
 * **Contacts.Factory** -- интерфейс фабрики контактов, простая (3) и случайная (3/5/8) реализации
 * **Identity** -- модели идентификации, интерфейс работы с идентификацией
-* **Identity.Mongo** -- реализация идентификации [MongoDbCore3.1.12](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore) + [JwtBearer7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
+* **Identity.Mongo** -- реализация идентификации / [MongoDbCore3.1.12](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore) + [JwtBearer7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
 * **Identity.Factory** -- интерфейс фабрики аккаунтов, простая (admin/default) и конфигурируемая реализации
 
 ---
