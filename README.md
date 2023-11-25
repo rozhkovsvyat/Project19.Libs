@@ -2,7 +2,7 @@
 
 <img align="right" width="100" height="100" src="https://github.com/rozhkovsvyat/Tools.Wpf/assets/71471748/e06a3e12-64d0-4b9f-90a4-5fd61f8a9db9">
 
-**#net7.0.10 #efcore7.0.13**
+**#net7.0.10**
 
 Библиотеки проекта Phonebook
 
@@ -14,7 +14,7 @@
 
 * **Contacts** -- модель контакта, интерфейс поставщика контактов
 * **Contacts.Test** -- реализация тестового поставщика (лист с задержкой)
-* **Contacts.Db** -- реализация поставщика из базы данных
+* **Contacts.Db** -- реализация поставщика [EntityFrameworkCore7.0.13](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
 * **Contacts.Factory** -- интерфейс фабрики контактов, простая (3) и случайная (3/5/8) реализации
 * **Identity** -- модели идентификации, интерфейс работы с идентификацией
 * **Identity.Mongo** -- реализация идентификации [MongoDbCore3.1.12](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore) + [JwtBearer7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
