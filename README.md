@@ -1,11 +1,12 @@
 # Project 19 : Libraries
+---
 #nuget #net7.0.10
 
 Библиотеки проекта Phonebook
 
 > :eye_speech_bubble: https://www.nuget.org/profiles/rozhkovsvyat
 
-___
+---
 
 ### MODELS
 
@@ -23,7 +24,7 @@ ___
 
 * **Identity.Factory** - интерфейс фабрики аккаунтов, простая (admin/default) и конфигурируемая реализации
 
-___
+---
 
 ### SERVICES
 
