@@ -1,8 +1,7 @@
 # Project 19 : Libraries
 #nuget #net7.0.10
 
-Сборки проекта Phonebook
-Доступны здесь https://www.nuget.org/profiles/rozhkovsvyat
+Сборки проекта Phonebook https://www.nuget.org/profiles/rozhkovsvyat
 
 [MODELS]
 
