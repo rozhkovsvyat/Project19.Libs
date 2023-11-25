@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Project_19.Models</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyVersion>1.8.6</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <Version>$(AssemblyVersion)</Version>
+    <Authors>RozhkovSvyat</Authors>
+    <Product>$(Authors).Project19</Product>
+    <Description>$(Product).Models.Identity</Description>
+    <PackageId>$(Description)</PackageId>
+    <Title>$(PackageId)</Title>
+    <PackageTags>rozhkovsvyat;project19;models;identity</PackageTags>
+    <PackageProjectUrl>https://t.me/svyatseverskiy</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- ReSharper disable once VulnerablePackage -->
+    <PackageReference Include="AspNetCore.Mvc.SelectList" Version="1.2.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+</Project>

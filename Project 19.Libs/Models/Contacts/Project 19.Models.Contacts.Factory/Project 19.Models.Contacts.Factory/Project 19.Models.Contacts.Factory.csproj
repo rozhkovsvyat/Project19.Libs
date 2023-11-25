@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Project_19.Models</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyVersion>1.2.0</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <Version>$(AssemblyVersion)</Version>
+    <Authors>RozhkovSvyat</Authors>
+    <Product>$(Authors).Project19</Product>
+    <Description>$(Product).Models.Contacts.Factory</Description>
+    <PackageId>$(Description)</PackageId>
+    <Title>$(PackageId)</Title>
+    <PackageTags>rozhkovsvyat;project19;models;contacts;factory</PackageTags>
+    <PackageProjectUrl>https://t.me/svyatseverskiy</PackageProjectUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RozhkovSvyat.Project19.Models.Contacts" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>

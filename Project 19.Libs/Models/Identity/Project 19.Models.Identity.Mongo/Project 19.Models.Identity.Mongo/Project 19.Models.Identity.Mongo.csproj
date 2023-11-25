@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Project_19.Models</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyVersion>1.9.1</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <Version>$(AssemblyVersion)</Version>
+    <Authors>RozhkovSvyat</Authors>
+    <Product>$(Authors).Project19</Product>
+    <Description>$(Product).Models.Identity.Mongo</Description>
+    <PackageId>$(Description)</PackageId>
+    <Title>$(PackageId)</Title>
+    <PackageTags>rozhkovsvyat;project19;models;identity;mongoasp</PackageTags>
+    <PackageProjectUrl>https://t.me/svyatseverskiy</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- ReSharper disable once VulnerablePackage -->
+    <PackageReference Include="AspNetCore.Identity.MongoDbCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="RozhkovSvyat.Project19.Models.Identity" Version="1.8.6" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+// Use one of the methods to fix msconfig error (longpath).
+
+
+// 1.PowerShell
+
+// New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
+// -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
+
+
+// 2.Reistry (.reg) file
+
+// Windows Registry Editor Version 5.00
+// [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+// "LongPathsEnabled"=dword:00000001
+
+
+// See https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell
