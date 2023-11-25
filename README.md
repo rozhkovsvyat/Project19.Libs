@@ -2,7 +2,7 @@
 
 <img align="right" width="100" height="100" src="https://github.com/rozhkovsvyat/Tools.Wpf/assets/71471748/e06a3e12-64d0-4b9f-90a4-5fd61f8a9db9">
 
-#net7.0.10**
+**#net7.0.10**
 
 Библиотеки проекта Phonebook
 
