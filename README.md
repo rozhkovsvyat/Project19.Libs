@@ -14,10 +14,10 @@
 
 * **Contacts** -- модель контакта, интерфейс поставщика контактов
 * **Contacts.Test** -- реализация тестового поставщика (лист с задержкой)
-* **Contacts.Db** -- реализация поставщика из базы данных (efcore)
+* **Contacts.Db** -- реализация поставщика из базы данных
 * **Contacts.Factory** -- интерфейс фабрики контактов, простая (3) и случайная (3/5/8) реализации
-* **Identity** -- модели аккаунта и роли, опции токена, формы, интерфейс работы с идентификацией
-* **Identity.Mongo** -- реализация идентификации mongodb-jwt, проверка здоровья
+* **Identity** -- модели идентификации, интерфейс работы с идентификацией
+* **Identity.Mongo** -- реализация идентификации Mongo, проверка здоровья
 * **Identity.Factory** -- интерфейс фабрики аккаунтов, простая (admin/default) и конфигурируемая реализации
 
 ---
@@ -34,6 +34,6 @@
 ---
 
 > [!NOTE]
-> :eye_speech_bubble: [Использует MongoDbCore3.1.12](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore)
+> :large_blue_diamond: [Использует MongoDbCore3.1.12](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore)
 >
-> :eye_speech_bubble: [Использует JwtBearer7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
+> :large_blue_diamond: [Использует JwtBearer7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
