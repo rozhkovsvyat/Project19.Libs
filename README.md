@@ -9,10 +9,10 @@
 
 * Project19.Models.Contacts - модель контакта, интерфейс поставщика контактов
 
-* Project19.Models.Contacts.Test - реализация тестового поставщика контактов (лист, имитация задержки)
+* Project19.Models.Contacts.Test - реализация тестового поставщика контактов
 
-* Project19.Models.Contacts.Db - реализация поставщика контактов из базы данных (EFCore)
-
+* Project19.Models.Contacts.Db - реализация поставщика контактов из базы данных
+  
 * Project19.Models.Contacts.Factory - интерфейс фабрики контактов, простая и случайная реализации
 
 * Project19.Models.Identity - 
