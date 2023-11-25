@@ -3,7 +3,7 @@
 
 Библиотеки проекта Phonebook
 
-> NuGet: https://www.nuget.org/profiles/rozhkovsvyat
+> https://www.nuget.org/profiles/rozhkovsvyat
 
 ### MODELS
 
