@@ -8,6 +8,8 @@
 
 > :eye_speech_bubble: https://www.nuget.org/profiles/rozhkovsvyat
 
+---
+
 > [!NOTE]
 > :eye_speech_bubble: [Использует JwtBearer7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
 > 
