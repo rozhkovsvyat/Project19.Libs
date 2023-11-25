@@ -3,26 +3,25 @@
 
 https://www.nuget.org/profiles/rozhkovsvyat
 
+Библиотеки проекта Phonebook, доступные на nuget.org
 
-Сборки nuget, используемые в проекте Phonebook
+М О Д Е Л И
 
-[MODELS]
+Project19.Models.Contacts - модель контакта, интерфейс поставщика контактов
 
-Project19.Models.Contacts
+Project19.Models.Contacts.Test - реализация тестового поставщика контактов (лист, имитация задержки)
 
-Project19.Models.Contacts.Db
+Project19.Models.Contacts.Db - реализация поставщика контактов из базы данных (EFCore)
 
-Project19.Models.Contacts.Factory
+Project19.Models.Contacts.Factory - интерфейс фабрики контактов, простая реализация (возвращает 3 записи), случайная реализация (возвращает 3/5/8 записей)
 
-Project19.Models.Contacts.Test
-
-Project19.Models.Identity
+Project19.Models.Identity - 
 
 Project19.Models.Identity.Factory
 
 Project19.Models.Identity.Mongo
 
-[SERVICES]
+С Е Р В И С Ы
 
 Project19.Services.Api
 
