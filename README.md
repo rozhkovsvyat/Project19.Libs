@@ -1,7 +1,7 @@
 # Project 19 : Libraries
-#nuget #net7.0.10
+**#nuget #net7.0.10**
 
-Библиотеки проекта Phonebook
+**Библиотеки проекта Phonebook**
 
 
 > :eye_speech_bubble: https://www.nuget.org/profiles/rozhkovsvyat
