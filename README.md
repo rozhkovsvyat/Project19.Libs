@@ -34,6 +34,6 @@
 ---
 
 > [!NOTE]
-> :large_blue_diamond: [Использует MongoDbCore3.1.12](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore)
+> :leaves: [Использует MongoDbCore3.1.12](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore)
 >
-> :large_blue_diamond: [Использует JwtBearer7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
+> :fireworks: [Использует JwtBearer7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
