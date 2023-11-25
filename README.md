@@ -1,5 +1,4 @@
 # Project 19 : Libraries
----
 #nuget #net7.0.10
 
 Библиотеки проекта Phonebook
