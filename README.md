@@ -5,7 +5,7 @@
 
 Библиотеки проекта Phonebook
 
-## МОДЕЛИ
+## MODELS
 
 * Project19.Models.Contacts - модель контакта, интерфейс поставщика контактов
 
@@ -21,7 +21,7 @@
 
 * Project19.Models.Identity.Mongo
 
-## СЕРВИСЫ
+## SERVICES
 
 Project19.Services.Api
 
