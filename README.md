@@ -5,6 +5,8 @@
 
 > :eye_speech_bubble: https://www.nuget.org/profiles/rozhkovsvyat
 
+---
+
 ### MODELS
 
 * **Contacts** - модель контакта, интерфейс поставщика контактов
@@ -20,6 +22,8 @@
 * **Identity.Mongo** - реализация идентификации на основе MongoDB, проверка работоспособности
 
 * **Identity.Factory** - интерфейс фабрики аккаунтов, простая (admin/default) и конфигурируемая реализации
+
+---
 
 ### SERVICES
 
