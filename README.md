@@ -3,7 +3,7 @@
 
 https://www.nuget.org/profiles/rozhkovsvyat
 
-Библиотеки проекта Phonebook, доступные на nuget.org
+Библиотеки проекта Phonebook
 
 ----------------------------------------------------------
 МОДЕЛИ
