@@ -17,7 +17,7 @@
 * **Contacts.Db** -- реализация поставщика из базы данных
 * **Contacts.Factory** -- интерфейс фабрики контактов, простая (3) и случайная (3/5/8) реализации
 * **Identity** -- модели идентификации, интерфейс работы с идентификацией
-* **Identity.Mongo** -- реализация идентификации Mongo, проверка здоровья
+* **Identity.Mongo** -- реализация идентификации [MongoDbCore3.1.12](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore) + [JwtBearer7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
 * **Identity.Factory** -- интерфейс фабрики аккаунтов, простая (admin/default) и конфигурируемая реализации
 
 ---
@@ -25,15 +25,8 @@
 ### SERVICES
 
 * **Api** -- интерфейс апи-сервиса, интерфейс работы с токеном
-* **ApiContacts** -- реализация сервиса поставщика контактов, проверка здоровья
-* **ApiIdentity** -- реализация сервиса идентификации, проверка здоровья
+* **ApiContacts** -- реализация сервиса поставщика контактов
+* **ApiIdentity** -- реализация сервиса идентификации
 * **Initializator** -- интерфейс инициализации сервиса
 * **UrlButtonService** -- интерфейс сервиса кнопок-ссылок
 * **UrlButtonService.SocialBar** -- реализация панели социальных сетей
-* 
----
-
-> [!NOTE]
-> :leaves: [Использует MongoDbCore3.1.12](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore)
->
-> :fireworks: [Использует JwtBearer7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
