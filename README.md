@@ -5,7 +5,7 @@
 
 > :eye_speech_bubble: https://www.nuget.org/profiles/rozhkovsvyat
 
---
+-
 
 ### MODELS
 
@@ -23,7 +23,7 @@
 
 * **Identity.Factory** - интерфейс фабрики аккаунтов, простая (admin/default) и конфигурируемая реализации
 
---
+-
 
 ### SERVICES
 
