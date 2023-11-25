@@ -122,10 +122,10 @@ public class MongoIdentity : IIdentity
 
 			claims = new List<Claim>
 			{
-				new Claim(JwtRegisteredClaimNames.Sub, acc.Id),
-				new Claim(ClaimTypes.Name, acc.Login),
-				new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-				new Claim(ClaimTypes.NameIdentifier, acc.Id)
+				new(JwtRegisteredClaimNames.Sub, acc.Id),
+				new(ClaimTypes.Name, acc.Login),
+				new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+				new(ClaimTypes.NameIdentifier, acc.Id)
 			};
 
 			claims.AddRange(roles.Select(r => new Claim(ClaimTypes.Role, r.Name)));
