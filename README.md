@@ -3,7 +3,7 @@
 
 Библиотеки проекта Phonebook
 
-> https://www.nuget.org/profiles/rozhkovsvyat
+> :eye_speech_bubble: https://www.nuget.org/profiles/rozhkovsvyat
 
 ### MODELS
 
