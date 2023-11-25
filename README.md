@@ -7,30 +7,30 @@
 
 ### MODELS
 
-* Project19.Models.Contacts - модель контакта, интерфейс поставщика контактов
+* Contacts - модель контакта, интерфейс поставщика контактов
 
-* Project19.Models.Contacts.Test - реализация тестового поставщика контактов
+* Contacts.Test - реализация тестового поставщика контактов
 
-* Project19.Models.Contacts.Db - реализация поставщика контактов из базы данных
+* Contacts.Db - реализация поставщика контактов из базы данных
   
-* Project19.Models.Contacts.Factory - интерфейс фабрики контактов, простая и случайная реализации
+* Contacts.Factory - интерфейс фабрики контактов, простая и случайная реализации
 
-* Project19.Models.Identity - 
+* Identity - 
 
-* Project19.Models.Identity.Factory
+* Identity.Factory
 
-* Project19.Models.Identity.Mongo
+* Identity.Mongo
 
 ### SERVICES
 
-Project19.Services.Api
+* Api
 
-Project19.Services.Api.ApiContacts
+* ApiContacts
 
-Project19.Services.Api.ApiIdentity
+* ApiIdentity
 
-Project19.Services.Initializator
+* Initializator
 
-Project19.Services.UrlButtonService
+* UrlButtonService
 
-Project19.Services.UrlButtonService.SocialBar
+* UrlButtonService.SocialBar
