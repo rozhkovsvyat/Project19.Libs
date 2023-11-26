@@ -25,8 +25,8 @@
 ### SERVICES
 
 * **Api** -- интерфейс апи-сервиса, интерфейс работы с токеном
-* **ApiContacts** -- реализация сервиса поставщика контактов / [Http](https://www.nuget.org/packages/Microsoft.Extensions.Http)
-* **ApiIdentity** -- реализация сервиса идентификации / [Http](https://www.nuget.org/packages/Microsoft.Extensions.Http)
+* **Api.ApiContacts** -- реализация сервиса поставщика контактов / [Http](https://www.nuget.org/packages/Microsoft.Extensions.Http)
+* **Api.ApiIdentity** -- реализация сервиса идентификации / [Http](https://www.nuget.org/packages/Microsoft.Extensions.Http)
 * **Initializator** -- интерфейс инициализации сервиса
 * **UrlButtonService** -- интерфейс сервиса кнопок-ссылок
 * **UrlButtonService.SocialBar** -- реализация панели социальных сетей
