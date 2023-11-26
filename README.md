@@ -1,6 +1,6 @@
 # Project 19 : Libraries
 
-<img align="right" width="100" height="100" src="https://github.com/rozhkovsvyat/Tools.Wpf/assets/71471748/e06a3e12-64d0-4b9f-90a4-5fd61f8a9db9">
+<img align="right" width="100" height="100" src="https://github.com/rozhkovsvyat/Project19.Web/assets/71471748/85a2efb1-2aa1-4671-b78d-64b2cd6a41e4">
 
 **#net7.0.10**
 
