@@ -14,10 +14,10 @@
 
 * **Contacts** -- модель контакта, интерфейс поставщика контактов
 * **Contacts.Test** -- реализация тестового поставщика (лист с задержкой)
-* **Contacts.Db** -- реализация поставщика из базы данных / [EntityFrameworkCore 7.0.13](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
+* **Contacts.Db** -- реализация поставщика из базы данных / [EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
 * **Contacts.Factory** -- интерфейс фабрики контактов, простая (3) и случайная (3/5/8) реализации
 * **Identity** -- модели идентификации, интерфейс работы с идентификацией
-* **Identity.Mongo** -- реализация идентификации / [MongoDbCore 3.1.12](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore) + [JwtBearer 7.0.13](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
+* **Identity.Mongo** -- реализация идентификации / [MongoDbCore](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore) + [JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
 * **Identity.Factory** -- интерфейс фабрики аккаунтов, простая (admin/default) и конфигурируемая реализации
 
 ---
@@ -25,8 +25,8 @@
 ### SERVICES
 
 * **Api** -- интерфейс апи-сервиса, интерфейс работы с токеном
-* **ApiContacts** -- реализация сервиса поставщика контактов / [Http 7.0.0](https://www.nuget.org/packages/Microsoft.Extensions.Http)
-* **ApiIdentity** -- реализация сервиса идентификации / [Http 7.0.0](https://www.nuget.org/packages/Microsoft.Extensions.Http)
+* **ApiContacts** -- реализация сервиса поставщика контактов / [Http](https://www.nuget.org/packages/Microsoft.Extensions.Http)
+* **ApiIdentity** -- реализация сервиса идентификации / [Http](https://www.nuget.org/packages/Microsoft.Extensions.Http)
 * **Initializator** -- интерфейс инициализации сервиса
 * **UrlButtonService** -- интерфейс сервиса кнопок-ссылок
 * **UrlButtonService.SocialBar** -- реализация панели социальных сетей
