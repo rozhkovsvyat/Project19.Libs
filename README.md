@@ -1,6 +1,7 @@
 # Project 19 : Libraries
 
-<img align="right" width="100" height="100" src="https://github.com/rozhkovsvyat/Project19.Web/assets/71471748/85a2efb1-2aa1-4671-b78d-64b2cd6a41e4">
+<img align="right" width="100" height="100" src="https://github.com/rozhkovsvyat/Project19.API/assets/71471748/5fa60fc0-9c8d-4e5d-af31-942804585863">
+<img align="right" width="50" height="50" src="https://github.com/rozhkovsvyat/Project19.Web/assets/71471748/85a2efb1-2aa1-4671-b78d-64b2cd6a41e4">
 
 **#net7.0.10**
 
