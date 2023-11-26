@@ -5,7 +5,7 @@
 
 **#net7.0.10**
 
-Общие библиотеки проекта Phonebook
+Библиотеки проекта Phonebook
 
 > :eye_speech_bubble: https://www.nuget.org/profiles/rozhkovsvyat
 
