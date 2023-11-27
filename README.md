@@ -31,3 +31,10 @@
 * **Initializator** -- инициализатор сервиса
 * **UrlButtonService** -- интерфейс сервиса кнопок-ссылок
 * **UrlButtonService.SocialBar** -- сервис панели социальных сетей
+
+---
+
+### WPF
+
+* **Tools.RecipeFactory** -- [абстрактная фабрика объекта](https://github.com/rozhkovsvyat/Tools.RecipeFactory)
+* **Tools.WPF** -- [инструменты разработки WPF](https://github.com/rozhkovsvyat/Tools.WPF)
