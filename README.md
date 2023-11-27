@@ -8,6 +8,10 @@
 Библиотеки проекта Phonebook
 
 > :eye_speech_bubble: https://www.nuget.org/profiles/rozhkovsvyat
+> 
+> :link: [**Tools.RecipeFactory**](https://github.com/rozhkovsvyat/Tools.RecipeFactory) -- абстрактная фабрика рецептов объекта
+> 
+> :link: [**Tools.WPF**](https://github.com/rozhkovsvyat/Tools.WPF) -- библиотека инструментов WPF-разработки
 
 
 ---
@@ -32,10 +36,3 @@
 * **Initializator** -- инициализатор сервиса
 * **UrlButtonService** -- интерфейс сервиса кнопок-ссылок
 * **UrlButtonService.SocialBar** -- сервис панели социальных сетей
-
----
-
-### TOOLS
-
-* :link: [**Tools.RecipeFactory**](https://github.com/rozhkovsvyat/Tools.RecipeFactory) -- абстрактная фабрика рецептов объекта 
-* :link: [**Tools.WPF**](https://github.com/rozhkovsvyat/Tools.WPF) -- библиотека инструментов WPF-разработки
