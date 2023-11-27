@@ -9,9 +9,9 @@
 
 > :eye_speech_bubble: https://www.nuget.org/profiles/rozhkovsvyat
 > 
-> :link: [**Tools.RecipeFactory**](https://github.com/rozhkovsvyat/Tools.RecipeFactory) -- абстрактная фабрика рецептов объекта
+> :link: [**Tools.RecipeFactory**](https://github.com/rozhkovsvyat/Tools.RecipeFactory)
 > 
-> :link: [**Tools.WPF**](https://github.com/rozhkovsvyat/Tools.WPF) -- библиотека инструментов WPF-разработки
+> :link: [**Tools.WPF**](https://github.com/rozhkovsvyat/Tools.WPF)
 
 
 ---
