@@ -14,20 +14,20 @@
 ### MODELS
 
 * **Contacts** -- модель контакта, интерфейс поставщика контактов
-* **Contacts.Test** -- реализация тестового поставщика (лист с задержкой)
-* **Contacts.Db** -- реализация поставщика из базы данных / [EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
-* **Contacts.Factory** -- интерфейс фабрики контактов, простая (3) и случайная (3-5-8) реализации
-* **Identity** -- модели идентификации, интерфейс работы с идентификацией
-* **Identity.Mongo** -- реализация идентификации / [MongoDbCore](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore) + [HealthChecks](https://www.nuget.org/packages/Microsoft.Extensions.Diagnostics.HealthChecks) + [JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
-* **Identity.Factory** -- интерфейс фабрики аккаунтов, простая (admin-default) и конфигурируемая реализации
+* **Contacts.Test** -- тестовый поставщик контактов (лист с задержкой)
+* **Contacts.Db** -- поставщик контактов из базы данных / [EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
+* **Contacts.Factory** -- интерфейс и реализации фабрики контактов
+* **Identity** -- интерфейс и модели идентификации
+* **Identity.Mongo** -- идентификация / [MongoDbCore](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore) + [HealthChecks](https://www.nuget.org/packages/Microsoft.Extensions.Diagnostics.HealthChecks) + [JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
+* **Identity.Factory** -- интерфейс и реализации фабрики аккаунтов
 
 ---
 
 ### SERVICES
 
-* **Api** -- интерфейс апи-сервиса, интерфейс работы с токеном
-* **Api.ApiContacts** -- реализация сервиса апи-поставщика контактов / [HttpClientFactory](https://www.nuget.org/packages/Microsoft.Extensions.Http)
-* **Api.ApiIdentity** -- реализация сервиса апи-идентификации / [HttpClientFactory](https://www.nuget.org/packages/Microsoft.Extensions.Http)
-* **Initializator** -- интерфейс инициализации сервиса
+* **Api** -- интерфейсы сервиса апи
+* **Api.ApiContacts** -- сервис апи-поставщика контактов / [HttpClientFactory](https://www.nuget.org/packages/Microsoft.Extensions.Http)
+* **Api.ApiIdentity** -- сервис апи-идентификации / [HttpClientFactory](https://www.nuget.org/packages/Microsoft.Extensions.Http)
+* **Initializator** -- инициализатор сервиса
 * **UrlButtonService** -- интерфейс сервиса кнопок-ссылок
-* **UrlButtonService.SocialBar** -- реализация панели социальных сетей
+* **UrlButtonService.SocialBar** -- сервис панели социальных сетей
